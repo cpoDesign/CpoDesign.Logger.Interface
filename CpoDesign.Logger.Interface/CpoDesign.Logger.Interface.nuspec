@@ -8,7 +8,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Abstraction for cpodesign nlogger implementation</description>
         <language>en-GB</language>
-        <tags>cpodesign nlog interface</tags>
+        <tags>cpodesign nlog interface MEF</tags>
     </metadata>
     <files>        
         <file src="bin\Release\CpoDesign.Logger.Interface.dll" target="lib\net45\CpoDesign.Logger.Interface.dll" />
