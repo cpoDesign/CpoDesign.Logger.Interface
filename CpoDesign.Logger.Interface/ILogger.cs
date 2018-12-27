@@ -214,20 +214,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Debug(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Debug level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Debug(string message, string argument);
         //
@@ -245,35 +231,7 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Debug<TArgument>(string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Debug level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Debug(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Debug level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Debug(string message, ulong argument);
-        //
+          //
         // Summary:
         //     Writes the diagnostic message at the Debug level using the specified value
         //     as a parameter and formatting it with the supplied format provider.
@@ -432,24 +390,7 @@ namespace CpoDesign.Logger.Interface
         //   args:
         //     Arguments to format.
         void Debug(IFormatProvider formatProvider, string message, params object[] args);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Debug level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Debug(IFormatProvider formatProvider, string message, sbyte argument);
-        //
+         //
         // Summary:
         //     Writes the diagnostic message at the Debug level using the specified value
         //     as a parameter and formatting it with the supplied format provider.
@@ -484,40 +425,7 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Debug<TArgument>(IFormatProvider formatProvider, string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Debug level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Debug(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Debug level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Debug(IFormatProvider formatProvider, string message, ulong argument);
+
         //
         // Summary:
         //     Writes the diagnostic message at the Debug level using the specified parameters.
@@ -874,20 +782,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Error(string message, string argument);
         //
@@ -905,34 +799,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Error<TArgument>(string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Error level using the specified value
@@ -1106,23 +972,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Error(IFormatProvider formatProvider, string message, string argument);
         //
@@ -1144,40 +993,7 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Error<TArgument>(IFormatProvider formatProvider, string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Error level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Error(IFormatProvider formatProvider, string message, ulong argument);
+
         //
         // Summary:
         //     Writes the diagnostic message at the Error level using the specified parameters.
@@ -1534,20 +1350,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Fatal(string message, string argument);
         //
@@ -1565,34 +1367,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Fatal<TArgument>(string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Fatal level using the specified value
@@ -1766,23 +1540,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Fatal(IFormatProvider formatProvider, string message, string argument);
         //
@@ -1804,40 +1561,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Fatal<TArgument>(IFormatProvider formatProvider, string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Fatal level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Fatal(IFormatProvider formatProvider, string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Fatal level using the specified parameters.
@@ -2194,20 +1917,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Info(string message, string argument);
         //
@@ -2225,34 +1934,7 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Info<TArgument>(string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(string message, ulong argument);
+
         //
         // Summary:
         //     Writes the diagnostic message at the Info level using the specified value
@@ -2426,23 +2108,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Info(IFormatProvider formatProvider, string message, string argument);
         //
@@ -2464,41 +2129,7 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Info<TArgument>(IFormatProvider formatProvider, string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(IFormatProvider formatProvider, string message, ulong argument);
-        //
+             //
         // Summary:
         //     Writes the diagnostic message at the Info level using the specified parameters.
         //
@@ -2534,77 +2165,7 @@ namespace CpoDesign.Logger.Interface
         //   TArgument2:
         //     The type of the second argument.
         void Info<TArgument1, TArgument2>(string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified arguments
-        //     formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        void Info<TArgument1, TArgument2>(IFormatProvider formatProvider, string message, TArgument1 argument1, TArgument2 argument2);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing format items.
-        //
-        //   arg1:
-        //     First argument to format.
-        //
-        //   arg2:
-        //     Second argument to format.
-        //
-        //   arg3:
-        //     Third argument to format.
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Info(string message, object arg1, object arg2, object arg3);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Info level using the specified parameters.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument1:
-        //     The first argument to format.
-        //
-        //   argument2:
-        //     The second argument to format.
-        //
-        //   argument3:
-        //     The third argument to format.
-        //
-        // Type parameters:
-        //   TArgument1:
-        //     The type of the first argument.
-        //
-        //   TArgument2:
-        //     The type of the second argument.
-        //
-        //   TArgument3:
-        //     The type of the third argument.
-        void Info<TArgument1, TArgument2, TArgument3>(string message, TArgument1 argument1, TArgument2 argument2, TArgument3 argument3);
-        //
+ //
         // Summary:
         //     Writes the diagnostic message at the Info level using the specified arguments
         //     formatting it with the supplied format provider.
@@ -2853,20 +2414,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Trace(string message, string argument);
         //
@@ -2884,34 +2431,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Trace<TArgument>(string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Trace level using the specified value
@@ -3085,23 +2604,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Trace(IFormatProvider formatProvider, string message, string argument);
         //
@@ -3123,40 +2625,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Trace<TArgument>(IFormatProvider formatProvider, string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Trace level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Trace(IFormatProvider formatProvider, string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Trace level using the specified parameters.
@@ -3513,20 +2981,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Warn(string message, string argument);
         //
@@ -3544,34 +2998,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Warn<TArgument>(string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value
-        //     as a parameter.
-        //
-        // Parameters:
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Warn level using the specified value
@@ -3745,23 +3171,6 @@ namespace CpoDesign.Logger.Interface
         //
         //   argument:
         //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(IFormatProvider formatProvider, string message, sbyte argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
         [EditorBrowsable(EditorBrowsableState.Never)]
         void Warn(IFormatProvider formatProvider, string message, string argument);
         //
@@ -3783,40 +3192,6 @@ namespace CpoDesign.Logger.Interface
         //   TArgument:
         //     The type of the argument.
         void Warn<TArgument>(IFormatProvider formatProvider, string message, TArgument argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(IFormatProvider formatProvider, string message, uint argument);
-        //
-        // Summary:
-        //     Writes the diagnostic message at the Warn level using the specified value
-        //     as a parameter and formatting it with the supplied format provider.
-        //
-        // Parameters:
-        //   formatProvider:
-        //     An IFormatProvider that supplies culture-specific formatting information.
-        //
-        //   message:
-        //     A string containing one format item.
-        //
-        //   argument:
-        //     The argument to format.
-        [CLSCompliant(false)]
-        [EditorBrowsable(EditorBrowsableState.Never)]
-        void Warn(IFormatProvider formatProvider, string message, ulong argument);
         //
         // Summary:
         //     Writes the diagnostic message at the Warn level using the specified parameters.
